@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="horizontal"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/flightLinearLayout">
+    <TextView
+        p1:text="MU"
+        p1:layout_width="wrap_content"
+        p1:layout_height="match_parent"
+        p1:id="@+id/carrierTextView" />
+    <TextView
+        p1:text="9999"
+        p1:layout_width="wrap_content"
+        p1:layout_height="match_parent"
+        p1:id="@+id/flightNoTextView" />
+    <TextView
+        p1:text="22:22"
+        p1:layout_width="wrap_content"
+        p1:layout_height="match_parent"
+        p1:id="@+id/etdTextView"
+        p1:paddingLeft="5pt"
+        p1:paddingRight="5pt" />
+    <TextView
+        p1:text="22:22"
+        p1:layout_width="wrap_content"
+        p1:layout_height="match_parent"
+        p1:id="@+id/etaTextView"
+        p1:paddingLeft="5pt"
+        p1:paddingRight="5pt" />
+    <TextView
+        p1:text="￥"
+        p1:layout_width="wrap_content"
+        p1:layout_height="match_parent"
+        p1:id="@+id/textView1"
+        p1:textSize="10pt"
+        p1:textColor="#ff0000" />
+    <TextView
+        p1:text="9999"
+        p1:layout_width="wrap_content"
+        p1:layout_height="match_parent"
+        p1:id="@+id/priceTextView"
+        p1:textSize="10pt"
+        p1:textColor="#ff0000" />
+</LinearLayout>
